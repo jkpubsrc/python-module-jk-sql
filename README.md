@@ -17,7 +17,7 @@ Information about this module can be found here:
 
 Please note that currently only SQLite is supported. In the long run more databases will be supported.
 
-Please also not that this module is still in alpha stage. According to unit tests SQLite support works as intended. Nevertheless the API still must be considered as being unstable: A few changes might be in order until beta stage is reached. If you decide to make use of this module have in mind that a few changes to your program might be required later if this module reaches beta stage and you then perform an upgrade on that module.
+Please also note that this module is still in alpha stage. According to unit tests SQLite support works as intended. Nevertheless the API still must be considered as being unstable: A few changes might be in order until beta stage is reached. If you decide to make use of this module have in mind that a few changes to your program might be required later if this module reaches beta stage and you then perform an upgrade on that module.
 
 How to use this module
 ----------------------

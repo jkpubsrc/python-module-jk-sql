@@ -20,7 +20,7 @@ class SQLFactorySQLite(object):
 
 
 
-	def __init__(self, bDebuggingEnabled = True):
+	def __init__(self, bDebuggingEnabled = False):
 		self.__bDebuggingEnabled = bDebuggingEnabled
 	#
 

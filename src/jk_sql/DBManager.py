@@ -44,6 +44,21 @@ class DBManager(object):
 	#
 
 	@staticmethod
+	def existsSQLiteDB(dirPath):
+		assert isinstance(dirPath, str)
+
+		if not os.path.isdir(dirPath):
+			return False
+
+		dataFile = os.path.join(dirPath, "data.db")
+		modelFile = os.path.join(dirPath, "model.json")
+		if os.path.isfile(dataFile) and os.path.isfile(modelFile):
+			return True
+
+		return False
+	#
+
+	@staticmethod
 	def createSQLiteMemoryDB():
 		return SQLiteDB(
 			sqlite3.connect(":memory:"),
@@ -65,7 +80,7 @@ class DBManager(object):
 
 		return SQLiteDB(
 			sqlite3.connect(dataFile),
-			DataModelContainerMemory()
+			DataModelContainerFile(modelFile)
 			)
 	#
 

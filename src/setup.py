@@ -7,7 +7,7 @@ def readme():
 
 
 setup(name='jk_sql',
-	version='0.2017.10.20',
+	version='0.2017.10.20.2',
 	description='This python module provides a uniform API to create, modify, read and write data to SQL tables in a database independent way.',
 	author='Jürgen Knauth',
 	author_email='pubsrc@binary-overflow.de',
