@@ -12,7 +12,7 @@ This python module provides a uniform API to create, modify, read and write data
 
 Information about this module can be found here:
 
-* [github.org](https://github.com/jkpubsrc/python-module-jk-sql)
+* [github.com](https://github.com/jkpubsrc/python-module-jk-sql)
 * [pypi.python.org](https://pypi.python.org/pypi/jk_sql)
 
 Please note that currently only SQLite is supported. In the long run more databases will be supported.
